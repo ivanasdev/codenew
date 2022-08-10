@@ -1,0 +1,26 @@
+<?php
+$ruta2index = "../../../../";
+require($ruta2index.'dbConexion.php');
+
+session_start();
+
+////////////////////////////// TRACKING ////////////////
+include($ruta2index."class.Tracking.php");
+$objTracking = new Tracking(3,14,"INSUMOS - Realizar Inventario de Insumos");
+///////////////////////////////////////////////////////	
+
+?>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Documento sin título</title>
+</head>
+
+<body>
+
+<center><img src="../enConstruccion.png" /></center>
+
+</body>
+</html>
